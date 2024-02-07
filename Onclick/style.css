@@ -1,0 +1,98 @@
+
+.container{
+    border: 3px solid black;
+    box-shadow: 3px 3px 10px;
+}
+
+.barra{
+    background-color: rgb(124, 123, 123);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.busqueda{
+    width: 500px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 70px;
+    margin-right: 70px;
+    box-shadow: 5px 5px 5px;
+}
+
+#Login{
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: rgb(0, 119, 255);
+    box-shadow: 5px 5px 5px;
+}
+
+.texto{
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.texto2{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.texto3{
+    font-family: monospace;
+    font-size: 35px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.col-1{
+    flex: 1;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.col-2{
+    flex: 2;
+    background-color: white;
+    margin-right: 40px;
+    margin-top: 20px;
+    text-align: start;
+}
+
+p{
+    display: inline;
+    font-family: monospace;
+    font-size: 20px;
+}
+.p1{
+    color: rgb(14, 109, 250);
+    display: inline;
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.boton1{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(207, 207, 47);
+    color: black;
+    box-shadow: 3px 3px 10px;
+    border: 2px solid black;
+}
+
+.boton2{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(32, 110, 32);
+    color: black;
+    box-shadow: 3px 3px 10px;
+    border: 2px solid black;
+}
